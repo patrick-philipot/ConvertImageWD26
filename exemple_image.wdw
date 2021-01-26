@@ -1,0 +1,176 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : exemple_image
+ major_version : 26
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : exemple_image
+ identifier : 0x2b72eaae00b2037a
+ internal_properties : BgAAAAYAAADQWowSAKARCoe9RVOQRw2zN2YxYLvcy6GBDoxiG7nVI5UjbdpvjQVoCV98WqdeUshAYfwQ9vd4gfDaVFd757qtQywSY3Gg0bJTGcedoghVSroJQuG2U94vzoLNUkRz/UWsdtTeMMcsPvqq6sQEBRPkmS72BcwJ7lyRc2w0GXKsH07uY7zkfZFJv9lYUPH1Ydk66QwleZj1qjm+XhgWemvaWp1g6mbRTPD0HpIlTmKbAIcQ4NA6Ab2j7g6gWTmKETdu4sZCPReqj1qfBlaUYcFZmE6/ZRyvGekXUTgqWWlTICnTC9su5fDVKJKT3fsSJfeilgBZ4D2pPCpS8FaLbi5z63zmOZ2OSDU3EpL8wO7und20qzGEHEUh1YOQTgCbROPRHr2VrqsQA1YMtAtxS8joiX3PNyhSoWvGtx9o3U23IcYSxdIReEizH3cQzsIsG47oO9gz846qKlzFwEB8RWLBwcF2L8x0zt83mb5S6JbvEZSlVi9uMeowxoQFHx/KVH4KqspJxKu5IQTk0x8W3r4tgVEj0/WEfEfhWgsHLZRy79PIUpJol6kEQlrqa02am77FthW+7pejtQj9shsPusNEeP/ijDBB3U4o9sBEpuTko/82k6eMnLK3JQB9c/rSzQDgYIJMrkvMovwUz1qG4luIs1iag+hshemK3ni+KX+ovnZFjgrQTObxmbszarZbJjW/g0Wn5aDSC6qMs1fx+A0p4VRXTdMMwLdp5FPzDrH+6R0lRGFxTLqyy44UVFU2bY4OfJTFw9XkxFcZQm4vKlcDY2JF0mle9C+RfDa+FvAJeHkEDRstk4JzLQpKWajrMSRtai/kvEXxs+Gal6IEeleWTraGFNLo0CVJpl8Pqw==
+ controls :
+  -
+    name : Image1
+    identifier : 0x2b72eaeb0108f2cc
+    internal_properties : BgAAAAYAAAA1R8YfmLEctd+ZFyUsh/gzPsS8cBsmlrFQng2a/WXBX7DIiM3Gv/baOYVGsVHbax1QpOTabQC8QMOXBMMvRzhkGauPHuGkJREl+opGnBdXcnALYeVkEaGJqx1a81Hv3x5ALBWACaJhA2Qlx+1XDcugMff9ml7ylvstXstB0gfVgw3pMsvkppYZVkaKqW7tm7AW7frizu1EkC06eXqb196L0a1Ke6LmzbIqDvMVuiYatAfa5Bim4wuHPiVwRYNYR+oE2uoFBX9nMB5BOc8DMw5Pr8JzkZqAQRD3mWcXKzt74y5+o4s2qfbyuipZaSgfPJOYEsYHC4kg51jIXECKztPiZjXtwmDbsQD3W9pf2EYHBVC7rCFBLfiu/cZMdxVRlLFHjjwWZzJPAlTPf3mzBq+MD+/nvz3nf9TEs+aoCAScl4Bur4U36CYN0tg+TbLZA7b+0Iwz4Hi8WxGhZeZsede0xt+Z5mk/tknGkQocqX6EDXCfQEK5NmT9fVjPQdojzWCF+F5QwHHurbRJpfkitUrNVxUY4VG7SZh/309Hdj8vFBu7gVSQu78Yo59BgqGoQPObX+itMN9ewTpp9xYrswOGap0NdjSS8p9cjtDqN9W3d8BqE4B3MJ36NQJs25eYDMXsDLx48yMIaFXZaqbkgVwB2iS5dZdM7ye01bQJkvW6w/rh12Pa86tC1o+cXzEgg9jzfJow9oUZtF1HkplpIFIEjxWLFmkUupY+J58CuX6MyPZMiT82RtrALU/SnEGqkLdpw8Xse7HGdKsLzABnJvq84Q5pJ1ovJtg/Y3mnGNVmAb/LWQ7YIsG6ZPErawG4y0ohNqonRNc/G19Ca1uJues/JIPMOrCr+X9it9131wGBgCiRB7KbCY4=
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_TEST
+    identifier : 0x2b73e58d0154f9c7
+    internal_properties : BgAAAAYAAACMbqaK1WFJm7Qg0VSdsZOSswEMHAcqZNj2WsQyrS1Y6Q5JykTZEBk7ngrxUcV8giB43HeUoqA13+UeDjSKuDatVaDPvriFqvxYPxU8TG4F0+l7AWzPC4pT+8DsXQ2M/Gf4WBzLZnYlZJCyXiRxsRS4ClqCvhnFLJ8seLenBv95ELsBL9oDsITIjvxwkLMAYe+pnNhT8cqs0v4qkxl/pytTPswMEwFYI5Pq+nnMhxM5XPQwx3ZgZEBnpdvC6TAY1JR27UOWCzTWM50hoNJ2FAIQQ0E+xMPweakc2KyFfGKCP2T5iEpMLhHlp94YY20XkjXtDO2Y1LCCH63nDWtlagDb6jk2pKB5ldiXToYUy8DI0xXnrBEPd7Y1tcUZCFM8037/WUxVKARqqzOxZhfeftFsrPevL+G+LWdgP3Dsdbfhwj8V4QuRK5CmpqWbLEPl6CPqNYXDHkFLkgxI25UCvuW8Y6/YoAvMajzhdYnmzXSedgynnd4SvHg3kw5/XnJkw27YKJzfWJ85msYFvkHUSAnE+teK9dHVOkaHvj292s+ekcYs3ND0xMuE5dxevKjtXLu0COkXIc/mhQ4ViYs5ogiBfA+CI2hFun22JmEoBKueWmmzc2UAn8ODD96CgUOpO3ZcWDnHI0LBeSnmu79oLBEYraZKBu637XXCIdfGBSyNMvrB2Kpv4Q473gw/E//WjW5l307W57J8S87iechqyuRdnGh9pV9c+eCRih+AUPfhuHJPKh/z8LNtm9tq8/+1msefVQQZKQ==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : BgAAAAYAAABewZ8j6Wiibw/mMLZpDzovSOUFlwb2P8Impiz1xYI0zYaY13oTVBlHNaW989hcCknPPDAF4t/u3v7BC99R4rBNnC6s378ReVcJT3YYBdoPcLIQdk9+mH5bC6uKA9VqM1jsL5vvCnSQFSeTLIPw7HgVZtFyc7pFNVUAVtkdR8OCA1LLpHDV873yZ8428ZilMwsa
+        code : |1+
+         
+         // récupération de la bitmap pour le champ <Image1>
+         hdc est un entier système
+         hdc = dDébutDessin(Image1)
+                 
+         bmpSource est BitmapAvecPtr(hdc, Image1..Largeur, Image1..Hauteur)
+         bmpDest   est BitmapAvecPtr(hdc, Image1..Largeur, Image1..Hauteur)
+         
+         // init avec l'image courante
+         bmpSource.CopieVersMémoire()
+         bmpDest.CopieVersMémoire()
+         
+         ChronoDébut()
+         pour i = 1 a 1 // 200
+         	// flouter l'image dans <bmpSource> vers <bmpDest>
+         	_FlouteImage(bmpSource.pointeurSurPixel, bmpDest.pointeurSurPixel,  Image1..Largeur, Image1..Hauteur, bmpSource.largeur1Ligne)
+         	
+         	// copie vers le champ image
+         	bmpDest.CopieVersEcran()
+         	 // invalidation et maj graphique
+         	API("User32", "InvalidateRect", Handle(Image1),0,0)
+         	Multitâche(-1)
+         	
+         	// relancer le flous sur l'image floutée pour flouter plus fort
+         	bmpSource.CopieVersMémoire()
+         	
+         fin
+         trace("durée en ms : " + chronofin())
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BgAAAAYAAABd4biPtdLQOwfUFiqrit8H4xfGqKyz9t6VLxCUnNZRQiLPVs82PZNE+UVdKRzjizyeuKyRur85gNMUfqplpmtNDnQWQla9zo+GH9+1EfUJ6w17Dn/egD/gv+Hhywk8c9unIdzEp7EHgaAqD28w7Agveg4u19PBcKGZtQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BgAAAAYAAAA67fgqjL+BlNW0l7RVb9QHekfVEUcR8SpB62EFBVueAPYoi1/j/aXUAO/gLLyCTVuQazFai314Ui0SG0rWW0oZm0BFICoRFAhcTeX8
+ code_elements :
+  internal_properties : BgAAAAYAAABNngmV3H0Lz2G7mVywvh3JxfjCvxMh+exnJCj0+NqqU+eXfUskM2GrL7ZnW2Js8em3SeTOWg==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // exemple_image ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE MaFenêtre()
+      
+      procAssembeur est une procédure
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     code : |1+
+      
+      
+     type : 180
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+  procedures :
+   -
+     name : _FlouteImage
+     procedure_id : 1978177969954699618
+     type_code : 14
+     code : |1+
+      //
+      PROCEDURE _FlouteImage( pPixelSource est un entier système, pPixelDest est un entier système, largeur entier, hauteur entier, larg1LigneEnOctet entier)
+      
+      // si on a déjà compilé
+      si procAssembeur<>null
+      	procAssembeur( pPixelSource, pPixelDest, largeur, hauteur, larg1LigneEnOctet ) 
+      	retour
+      FIN
+      
+      // image 128x128
+      // larg1LigneEnOctet = 384 = 3 x 128
+      //
+      
+      // code ASM a compiler
+      sCodeAssembleur est chaîne = codePPH
+      
+      // compiler le coder assembleur vers une procédure WL
+      procAssembeur = compileAsmX86(sCodeAssembleur) 
+      SI ErreurDétectée ALORS
+      	Erreur()
+      	RETOUR
+      FIN
+      
+      // appel procédure WL qui exécute le code assembleur
+      procAssembeur( pPixelSource, pPixelDest, largeur, hauteur, larg1LigneEnOctet )
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BgAAAAYAAAAwjDLmDSZ0H1P68nJIeNfqR9EvRjU/K+sVcM1T6rhVNr+VTV1mZ/rmoweYbFDZUhBGcv8UsxlDxVCOnb2U/SQOvlGWzNby3/w/V+ppSymxv+Vh
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x1b72eaa30108d779
+  internal_properties : BgAAAAYAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+custom_note :
+ internal_properties : BgAAAAYAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BgAAAAYAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
