@@ -21,6 +21,9 @@ project :
     version : {}
     language : 1
     64bits : true
+    new_features_help :
+     name : ""
+     internal_properties : BgAAAAYAAABcuMRsUYyPOKp4uXzDUdW+kgSLu4bFucL+clG8sspplXKvsLr2Dp+F4Kw1ElMO9wCgakQ32ZaflZu1
   -
     name : Exécutable Linux 64 bits
     internal_properties : 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
@@ -34,6 +37,9 @@ project :
      internal_generation_version : 25
     language : 1
     64bits : true
+    new_features_help :
+     name : ""
+     internal_properties : BgAAAAYAAABcuMRsUYyPOKp4uXzDUdW+kgSLu4bFucL+clG8sspplXKvsLr2Dp+F4Kw1ElMO9wCgakQ32ZaflZu1
   -
     name : Exécutable Windows 32 bits
     internal_properties : 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
@@ -47,6 +53,9 @@ project :
      internal_generation_version : 15
     icon_filename : .\compiler.ico
     language : 1
+    new_features_help :
+     name : ""
+     internal_properties : BgAAAAYAAABcuMRsUYyPOKp4uXzDUdW+kgSLu4bFucL+clG8sspplXKvsLr2Dp+F4Kw1ElMO9wCgakQ32ZaflZu1
   -
     name : Exécutable Windows 64 bits
     internal_properties : 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
@@ -60,6 +69,9 @@ project :
      internal_generation_version : 2
     language : 1
     64bits : true
+    new_features_help :
+     name : ""
+     internal_properties : BgAAAAYAAABcuMRsUYyPOKp4uXzDUdW+kgSLu4bFucL+clG8sspplXKvsLr2Dp+F4Kw1ElMO9wCgakQ32ZaflZu1
  elements :
   identifier : 0x4b64575300027e99
   elements :
@@ -176,7 +188,7 @@ project :
  data_directory : <RepExeOuRepDonneesCommun>
  languages :
   - fr-FR
- wd_style_sheet : .\WDAssembleur.sty
+ wd_style_sheet : ".\\WDAssembleur.sty\r\n.\\WD Assembleur.sty"
  wb_style_sheet : .\WDAssembleur.wws
  code_elements :
   internal_properties : BgAAAAYAAACyo+AGPHs6tl+CMW8i1j+hisKclwORtfzp4tr+6B34gnEg+AegA2o6CeaiNwKFgQlNnqdA
@@ -204,7 +216,6 @@ project :
       <fin>
       
       Global
-      	
       	codePPH est une chaîne = [
       	; prologue
       	push        ebp
@@ -239,6 +250,141 @@ project :
       
       	; lecture des couleurs de la source
       	; et addition dans EAX
+      	; objectif pondérer cGray	= 0.21 * R + 0.72 * G + 0.07 * B
+      	push ecx
+      	push ebx
+      	
+      	xor eax, eax   		; raz
+      	xor ecx, ecx
+      	xor ebx, ebx
+      	
+      						; allouer un espace sur la pile
+      	mov [ESP-4], eax
+      	
+      	mov al, [edi]		; couleur Bleu (coef 7%) cumul dans EAX
+      	mov bl, 100
+      	mul bl
+      	mov bl, 7
+      	div al, bl
+      	
+      	add eax, ecx
+      	mov cl, [edi+1]		; couleur Rouge (coef 21%)
+      	add eax, ecx
+      	mov cl, [edi+2]		; couleur Verte (coef 72%)
+      	add eax, ecx
+      	
+      						; diviser par 3
+      	mov bl, 3
+      	div al, bl
+      	
+      	pop ebx
+      	pop ecx
+      	; B
+      	call PixelB
+      	; V
+      	call PixelG
+      	; R
+      	call PixelR
+      	; x--		
+      	dec ecx;
+      	jnz boucle_X ; tant que x > 0 goto boucle_X
+      	; y--
+      	dec edx
+      	jnz boucle_Y;   tant que y > 0 goto boucle_Y
+      	
+      	jmp epilogue
+      
+      PixelR:
+      
+      	; écriture de la composante couleur Rouge
+      	mov	[esi], al
+      	
+      	; pixel de couleur suivant
+      	inc edi
+      	inc esi
+      	
+      
+      	; fin de la procédure
+      	ret
+      
+      PixelG:
+      
+      	; écriture de la composante couleur Verte
+      	mov	[esi], al
+      	
+      	; pixel de couleur suivant
+      	inc edi
+      	inc esi
+      	
+      	; fin de la procédure
+      	ret
+      	
+      PixelB:
+      
+      	; écriture de la composante couleur Verte
+      	mov	[esi], al
+      	
+      	; pixel de couleur suivant
+      	inc edi
+      	inc esi
+      	
+      	; fin de la procédure
+      	ret
+      	
+      	;--------------------------	
+      	;--------------------------	
+      	;--------------------------	
+      	
+      epilogue:
+      	
+      	Pop esi
+      	Pop edi
+      	
+      	pop			esi
+      	pop 		ebx
+      	pop			edx
+      	pop			ecx
+      	pop 		edi
+      	pop         ebp 
+      	ret			20 ;  5 paramètres de 4 octets	
+      	
+      ]
+      	
+      	codePPH_stable est une chaîne = [
+      	; prologue
+      	push        ebp
+      	mov         ebp,esp
+      	push 		edi
+      	push 		ecx
+      	push 		edx
+      	push		ebx
+      	push		esi
+      	
+      
+      	
+      	; récupération des paramètres
+      	mov			edi,[ebp+8]  ; pPixelSource ; 1er octet du pixel en (0,0)
+      	mov			esi,[ebp+12] ; pPixelDest	; 1er octet du pixel en (0,0)
+      ;					[ebp+16] ; largeur = 128				
+      	mov			edx,[ebp+20] ; edx = hauteur = 128
+      
+      	push esi
+      	Push edi
+      	
+      	;--------------------------	
+      	;--------------------------	
+      	;--------------------------		
+      	
+      	
+      boucle_Y:
+      
+      	mov			ecx,[ebp+16] ; ecx = largeur = 128
+      
+      boucle_X:
+      
+      	; lecture des couleurs de la source
+      	; et addition dans EAX
+      	; objectif pondérer cGray	= 0.21 * R + 0.72 * G + 0.07 * B
       	push ecx
       	push ebx
       	

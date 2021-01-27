@@ -23,7 +23,48 @@ window :
   -
     name : BTN_TEST
     identifier : 0x200ef4a9007c9697
-    internal_properties : BgAAAAYAAABlgXDGGVzw6RPDhqxr3tnF3XA1FRPRE186uGgMzUdSdh1GuUTr5nHP4MrAVoITeuWmsapYHBrVFvZpR+8Fl9HRyu7VyU2+3lwUfK8U3jFfoTzCQd03+7HcOwmTtHPx+D8BPoRLFOMoIILgZ8r657YnIjAQA08aHVqw76qHxCWXRWVLrTtthADkI11O2ldyNjdkmyYXva6zbrfZrDHtQS5WqI2+zfdF2gciyMBxoFBGz27nsv1YdFhNQLTkX57cULjY9sPGa0xQHLxKPDcMI7s2xUo1StqiYsTVblSAYouUdW0GIbl7rH2HohdGcX79XB9mumhBqceLVn9JKkFCq8rSFETK0DgQQbJxI0rrAFsr8WdBgCGVu9LiwB5SAq3guuOH+5TKjcUFgOiLTo5DDxqFo9uNyiY1AuClCWCVziDK/45ZS4osMM+XS3Ud+xZ8rxTR13E03+IOJ91skWrpmWwFHr86a1qZoSfwD20tOB0TGXWjlzfroU8+jiQbd4dXKiVl+PqWnVLCa8MlaKa5WWJNaVkK7gRaqd0yngeySanwJXZZI1ZU/u3kcWubqITvvl3iS0qlc4eycWZqeJMj0kxnXjxtOQiFLpOMaTpOHokcFIdm8L2knyeLE33/YckR/6Q+RqUoWEDlkjM/KqkNc66pcoM2koQM4owneTOdsCneNiD94NU3AgaZMsKNLjQbSgjkT9A1bkfse6r0VfSEFz3WNbRekZDVP5NLO/zOcZYcgQ07pDziI7okgtQC+l4=
+    internal_properties : BgAAAAYAAAC+J9PkzPw6ZYzIzVhJhjZxlHAuJWpixJwLgePxYrq1vsl2pjMv8ORPTM7coqWY6NgWqYaStpQySB2Uzsu8ntO29IXP7Fo9Kh+P9qC8JKaljGjWWGYw+yuWw58UHlbxSbpmXGtYoJbYWA5NMeu0mvMMc/wiBubja6/NCspblPbfOSfm1jRJ473ZMmxXhlqUUplCCk+oVK6p9ulVGMw74Z3U82xQ8njlEzrt/AURSNn2dxoglin+4OLL6inYIh4oATDaj7HtO4vcEIMrZjAJk64SYT+0fQTAEiz9lYaatNTPL+ZDIymdbHy9vGxsdSwolUBzBpfvBZeZ7AGAl3ZwyJccfwCLxul7Dc9M6sP+NVqW7vUFTNF+k18xqgVdKnpe07Iesl+Ra6n/gfuCpMMeCdILfJCsj7ekR0Co1M+XFzKyy0lJr3NZ5ylGX00lPawgY1Mow5NiNOFXpTmI7yi7Cs5xsdJF/WgfDGbNEoEPE61AmQS6TsHkufxSU6TyT/5nwt0rb4eReICbU/2An6vCM/iqzmGYY3nsREif844Z69BrSlv5sSJPzhLBSmwa7SWXagyAwKFvxdIV3O1m5vBb2AQb6sRvUnnUSB1tTUcrOMBx29CGW/9OsFnUxhje/yoAbftpOp3+le6nAkMo+xHL50zPJ5l1Fof9dfW7jYj/EOGDvCjDv9W2MX6YM50FSxFJJiUBCRNRzRCc0zF/BY1YFWr88w95+DlZkkm9OoAu6W1WghClkkdZnNnO+m34JGlSM7jbuH+OclIJ45h/G1LjlK+KK36E5jycBz1hKIMWstw0bHCc+WqvlzwH9dPfZr0gh5U/U5gmGskslEGJ/EPXdUKa7V/iqp8W5tfB44iSuPEvylH3Qq6t1Gen64+lSHa+VRmv33zFiWhirFea48sdJz/uNAoTJ2dJlMUFvCqS/PYWYxMWESWY3b1/N+Vi9wdvRNML6gy071hqjcPt5J58ejfOk837mWZFZhDCpLsjcZmfrg00xWvmyx2aF6jsIW7Ixk22nv30wLgmISu9NmMya+6CmUJOqrVYyQ8LwPLFo4iQIan0d4szuiG51AEAukOzyQ==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // récupération de la bitmap pour le champ <Image1>
+         hdc est un entier système
+         hdc = dDébutDessin(Image1)
+         
+         bmpSource	est BitmapAvecPtr(hdc, Image1..Largeur, Image1..Hauteur)
+         bmpDest		est BitmapAvecPtr(hdc, Image1..Largeur, Image1..Hauteur)
+         
+         // init avec l'image courante
+         bmpSource.CopieVersMémoire()
+         bmpDest.CopieVersMémoire()
+         
+         ChronoDébut()
+         
+         // flouter l'image dans <bmpSource> vers <bmpDest>
+         conversionNBtest(bmpSource.pointeurSurPixel, bmpDest.pointeurSurPixel,  Image1..Largeur, Image1..Hauteur, bmpSource.largeur1Ligne)
+         
+         // copie vers le champ image
+         bmpDest.CopieVersEcran()
+         // invalidation et maj graphique
+         API("User32", "InvalidateRect", Handle(Image1),0,0)
+         Multitâche(-1)
+         
+         // relancer le flous sur l'image floutée pour flouter plus fort
+         bmpSource.CopieVersMémoire()
+         
+         
+         Trace("durée en ms : " + ChronoFin())
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_TEST1
+    identifier : 0x201040e4006a3e24
+    internal_properties : BgAAAAYAAACxGNBWvPjdfRL+nH1GkIzn+e+kxV1E+Qa936CXep5pRrkL7hbtM3lAOKDc4E5vaedaXl+yHvIpmltqUGhpJEGbwje0nohz4GR2L47MCZwuszaGGWSExH5xthN9RMYnznTS7e3b3sx6gQnVNfRTMRWidROtLGFPSfpGrEmI6q35wt+F4HfY75ZaGoRqDm7plkyLsYgyW/k1LOQM6gaE02Xz+Fjqod189o9ScHDp3rRrPEqo7Va/8muE7wB8ulODlVNVIANVNH2HWU0scY53i9dCoHIL6Y67Vi8Jt19PkMWB9Achki+tJJaWlV2zmEORFEkSvTRPvXZecbSnKIn0SzhIH3wtMv/elgY/X9SZfisToNPouaYe87sUTlUAQ5O+00tcVIRFhIM7zNj+ZDmNTFJzk1Y9enDxHZtUf2RX+nEo21HXMLjLT2sIhWM3UYUBkihTyV0LCVKwMawFZDNQdRme8KFohDwayEU+uWTGPUk0nuXDcmHirH+AsqHZMA/Cjar0OJTalSCZWdos9R0VtSL9/S5xepGRXHq4vOnYyUKaS4P2rZshWLCQcCxdKM5eERpiMnuRA1agam9oWxxjEd2YCcAlm9zSUM8Qb/OIxgQw27YwjzesKyodk9iwN+1VWCu7Gz6jQMEMLqluURjBxhZ9o0sBqG2qjKxRFUIoriKW5/UcAWcrkd6H0FoTab6E1z9/LF8kcTb36nL3yVfh/CJ5s3Pf+ngDQDLrafgPXM8r+K4BxTpXznEj50fGzkq8xg==
     type : 4
     code_elements :
      type_code : 4
@@ -44,9 +85,9 @@ window :
          bmpDest.CopieVersMémoire()
          
          ChronoDébut()
-         pour i = 1 a 1 // 200
+         
          	// flouter l'image dans <bmpSource> vers <bmpDest>
-         	_FlouteImage(bmpSource.pointeurSurPixel, bmpDest.pointeurSurPixel,  Image1..Largeur, Image1..Hauteur, bmpSource.largeur1Ligne)
+         	conversionNBstable(bmpSource.pointeurSurPixel, bmpDest.pointeurSurPixel,  Image1..Largeur, Image1..Hauteur, bmpSource.largeur1Ligne)
          	
          	// copie vers le champ image
          	bmpDest.CopieVersEcran()
@@ -57,7 +98,7 @@ window :
          	// relancer le flous sur l'image floutée pour flouter plus fort
          	bmpSource.CopieVersMémoire()
          	
-         fin
+         
          trace("durée en ms : " + chronofin())
          
         type : 18
@@ -136,6 +177,70 @@ window :
      code : |1+
       //
       PROCEDURE _FlouteImage( pPixelSource est un entier système, pPixelDest est un entier système, largeur entier, hauteur entier, larg1LigneEnOctet entier)
+      
+      // si on a déjà compilé
+      si procAssembeur<>null
+      	procAssembeur( pPixelSource, pPixelDest, largeur, hauteur, larg1LigneEnOctet ) 
+      	retour
+      FIN
+      
+      // image 128x128
+      // larg1LigneEnOctet = 384 = 3 x 128
+      //
+      
+      // code ASM a compiler
+      sCodeAssembleur est chaîne = codePPH
+      
+      // compiler le coder assembleur vers une procédure WL
+      procAssembeur = compileAsmX86(sCodeAssembleur) 
+      SI ErreurDétectée ALORS
+      	Erreur()
+      	RETOUR
+      FIN
+      
+      // appel procédure WL qui exécute le code assembleur
+      procAssembeur( pPixelSource, pPixelDest, largeur, hauteur, larg1LigneEnOctet )
+      
+     type : 458752
+   -
+     name : conversionNBstable
+     procedure_id : 1157496619734849977
+     type_code : 14
+     code : |1+
+      //
+      PROCEDURE conversionNBstable( pPixelSource est un entier système, pPixelDest est un entier système, largeur entier, hauteur entier, larg1LigneEnOctet entier)
+      
+      // si on a déjà compilé
+      si procAssembeur<>null
+      	procAssembeur( pPixelSource, pPixelDest, largeur, hauteur, larg1LigneEnOctet ) 
+      	retour
+      FIN
+      
+      // image 128x128
+      // larg1LigneEnOctet = 384 = 3 x 128
+      //
+      
+      // code ASM a compiler
+      sCodeAssembleur est chaîne = codePPH_stable
+      
+      // compiler le coder assembleur vers une procédure WL
+      procAssembeur = compileAsmX86(sCodeAssembleur) 
+      SI ErreurDétectée ALORS
+      	Erreur()
+      	RETOUR
+      FIN
+      
+      // appel procédure WL qui exécute le code assembleur
+      procAssembeur( pPixelSource, pPixelDest, largeur, hauteur, larg1LigneEnOctet )
+      
+     type : 458752
+   -
+     name : conversionNBtest
+     procedure_id : 1157498299067387645
+     type_code : 14
+     code : |1+
+      //
+      PROCEDURE conversionNBtest( pPixelSource est un entier système, pPixelDest est un entier système, largeur entier, hauteur entier, larg1LigneEnOctet entier)
       
       // si on a déjà compilé
       si procAssembeur<>null
