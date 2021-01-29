@@ -1,0 +1,335 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : ConversionBWLarge
+ major_version : 26
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : ConversionBWLarge
+ identifier : 0x2011643e0167e691
+ internal_properties : BgAAAAYAAACyRF55q4YnhULwH9SYfbCxjQhg1KFblEX1qGAsmh0/EKkJeOFvajMQp7rc7XB9XgS4km4zQB2yryflw8c03Co1BayHNmudUy4ckSYwX2Eh3HtyjQA47y7KIglFPPNh0wAx7MgM1JzO96YtMx1CVz7QxUl6WifyHfRa+/wxcp0VqUHdRkMSPMGDyddJExUFuZ6RdrTG1yDAFodyzPjmF6OVe/bdIU6Z1i2AfNJInWPrHahIgAV2+PEXgunT63oADNfDUTPcD55E+vez7eqvpdgOHKSc08Gpi3sMsrnZ+Uokrs2LxY0DchQOY4Mt9XxT9YXx23FL5yZ1Y1m8s5QKsTYw0NQD5dyYVgDXYbc2KW+isV9FGxCY4o7tKxnZNMxptTJvQx2cchbWmOlF/x8M6BwxyNpOmPoQZawbH2hGPkiDwl7+vA9G8JcWQu6nBpUl69o8EqfXbPejYfUDPkj5WPvLPaekj9UUE3z9RYqVChTiSMas7fLsHQqTQP0mmvrf+Ua41E/v4Pbr+B/rbrZkQ0FWSIAmm3jVxYilH/6PQq6UT6nF++EeocLjyj5vDSZ5Tb/LzZKHtIvKLFsq7d6dyPZl73PaePytr3fr3I9MQR37QC4cIy0/K5p3STlyq6DPqnM6vtHi63trDKAqvYolsVV+RjS+BYRf/BPNSbFtlsMgHdMHqlWL4RnYGXWo7Z5XLbk6PPcYJo1c22qOxMqnPZiXubEqX6E/yHSYt/Tw5k2Y6XHd1wXDSPe64opT/I7qxJUkC6OGMdcZbHBHSIkCrfx03nfE5OPmE3fTm2tvnwMet5KIO8NTrJakOe7YR7qJ34bu3DyG+pY64V9nCvQmQR7ZhiCOar7WIQ==
+ controls :
+  -
+    name : Image1
+    identifier : 0x2011643e0168e691
+    internal_properties : BgAAAAYAAAA0s0NBolavH7yC401WZ5wv3bdDkBG2t+eyKiHzuhaQWZ48hyrqghv4/yTeG1XSGggEYTjQKCeExL6gK/DRTWzJqRFDNEhGfO8shXZQRnQuDemvO4KhmOAAQYo8rK09DjXFCqsaZVTPzT23P+u1aDTSFD+CgXq5NGnP8BfASZQDlCY37kPSfxqP4KCAQMRhvJU+0nRgE7w4KQUsrr7Q23sdn/bsGR9c/EvKIUQ/4vetcBUlsgLvZ4n4/h3+7OKG+PxrCeZg8GODihaHopZPVSmeux1vYFEvNenfhYwEyhgeHPUXcUoBm62XpCGnwjBjBW0eU8qHLDPgQMZT4PHzj7eJrih5AnshZo+tRLx8Xu+4q0dMXUohpulQ/rtPt9bQqMZ1BWW4VLceeLIoS6WMp46y/nkXRbXgDedHbbdEtJEtiY4fSDj8K2yF6zBPN1KE/w4hsX5RzPsOW2miQaJNaKZbpsszCwUCdPGX4iCrUJ873sGnhhWaqqMmNX0KKRxZPTHE/lRg7nYvRyCDwR2+8cVzne80CsjJAL6iai3ZQq8FrW4HV7xbYHf6MpRG4xkgtesh3lwMl+HdTZguGExlfnwVkHHHh7uIPa04u+S26Cud2SxWigXRwIlvvL9GcKb3FcQRLVeXDP8i03nUx8iMxSEqY+OadFLXfOg+nxMXwwJLdrQC129rF2hhs/dTevnH1f47sj9y5NMT6VIpSIeQKvmGEtjJxoFfTzAy19dYFKI7RN8lBU4quFWFDP5ARDmg//5i7WEJXZF/U2L9q5GcicMnpthcgKdz3uYoYZU3DS5tImg7php7HH94OMu0PkOrK01oE5kdFxBrfsCvB0o7DhZhzYmiCuSmJs4yfzQ1rHgLYnGKiX5lOCaYrZKQkRFWpKaAfi5s67A=
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : BTN_TEST1
+    identifier : 0x2011643e016ae691
+    internal_properties : BgAAAAYAAADw2REXB52JeDEdAUeTVSe4Y38mDVFKz3JNX6wN8hQtJu9DzBDZMNdmDOyo/v/sjQTaRY+XPWx/NcT/G3nevjUXZNbAFtyxNEQ+R5rfjgdeRIdO08hkmOwUMDB7qXO8XSULZbMe3dEy1Xxwv2M2WEweCsoyBVDqQF12d2CNiwCywZu4XzNFfOInaOmvmsR7BqOP517dIxVUKvdDgHqOdS6PEAJSasTHrwT31QeNXrputtOffA5tkgp/WT9yR6G4CXOG6QKM+PMD19QPNhe03JkDKcbJQbX5QmhBgcPsPunKr286AyJ4pPmmMny8csX/TYTGTAWrMZDI+pOBrkoJLPi5WFI6GMCEsgKXb8BkuAUSViDbfdW5u/W0xzramj3BIZADynM+CFPpFq6Q5uFlLCA+brgingj5FXRwPiXF+kKPesf0O869PXuuFRMHKEBYNutl4PUqiHO2oFUNwJtmiYUl8hdnQ6NjP0rxocIw6Tcgw7IgFyyjnyqDqbzeYTDURtpm6Ixg+54D7ylI7dWnJHC75v3+Yhfq1AsOjiVidYOH8DabipA6R4mtL5PYlLomIoPFn8rgyevUCRoHGXKe61NWMsnkhGCCM+A5N3CTKdVlib4WxYF+Z2DHMdNL3IJoj9zKGvX8CVjPV54TjqVOZaHiljpIYcqvsXm65JGf3V+N3tpv7JwARK+OI384jJHFIuSy3YgLgM2GOc2eAJJkjUX0jEIuW93kAWvQLNtmyzCaSZF8SCgLCJ0pIDAHjQn9Bw==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : BgAAAAYAAABewZ8j6Wiibw/mMLZpDzovSOUFlwb2P8Impiz1xYI0zYaY13oTVBlHNaW989hcCknPPDAF4t/u3v7BC99R4rBNnC6s378ReVcJT3YYBdoPcLIQdk9+mH5bC6uKA9VqM1jsL5vvCnSQFSeTLIPw7HgVZtFyc7pFNVUAVtkdR8OCA1LLpHDV873yZ8428ZilMwsa
+        code : |1+
+         
+         // récupération de la bitmap pour le champ <Image1>
+         hdc est un entier système
+         hdc = dDébutDessin(Image1)
+                 
+         bmpSource est BitmapAvecPtr(hdc, Image1..Largeur, Image1..Hauteur)
+         bmpDest   est BitmapAvecPtr(hdc, Image1..Largeur, Image1..Hauteur)
+         
+         // init avec l'image courante
+         bmpSource.CopieVersMémoire()
+         bmpDest.CopieVersMémoire()
+         
+         ChronoDébut()
+         
+         	// flouter l'image dans <bmpSource> vers <bmpDest>
+         	conversionNBstable(bmpSource.pointeurSurPixel, bmpDest.pointeurSurPixel,  Image1..Largeur, Image1..Hauteur, bmpSource.largeur1Ligne)
+         	
+         	// copie vers le champ image
+         	bmpDest.CopieVersEcran()
+         	 // invalidation et maj graphique
+         	API("User32", "InvalidateRect", Handle(Image1),0,0)
+         	Multitâche(-1)
+         	
+         	// relancer le flous sur l'image floutée pour flouter plus fort
+         	bmpSource.CopieVersMémoire()
+         	
+         
+         trace("durée en ms : " + chronofin())
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_TEST
+    identifier : 0x201268dd00821b0a
+    internal_properties : BgAAAAYAAAC32+Ht/W7hGtrkzxlS2CwxmtbiYl2yHD4HRq3m9hKZPRcPIuNXyVFhXzLanDH3BAsKmnYfYsUCK/v49KW7g+TC0vJzcHgsiw/FXKlGwWb3b3O2DSGf1NWHFLUqJfQeOx/dar+7NgkKwB7G/9lKsF+xNfdJxxUk6WiWXWP22owDKhSaoqLEiQkw/ZuDrI/yw/nox/W53bavNsM2O54qSqiGa+1u3rE7iruFZmvPMy/wKoNBvC3NOvfkNxlxWgmAmpdR1eE2Zctxrx+ILSL8Aa29dXIwhNHisCr2KbfRNj+pAEN6Dopbs2hIsS31MeczL+3QIVMCWZcIRW9hnb6abWvg1ZrY7N6U629IyWmkBZDxs/++1DqyC2IdNu4v1/DrJ/M8rDQ4e9Z0rcwoTq8YDayiYYWEeDpxOwR9bAF1gjLpytxr8Bx6oiKjcxZblw8ZZ7y3jZBpCUpUu/23JduT6FvmveAiIRLtCIJ2N8yD5Yw8NZs7lEs89a1U2CLZYlVs39cI9VUcQgmsDcpxJDw3obxbS46PYtNsD/N0e0WGxEjzNHYQWRCJzg9b3OiQKmn+L/vmkvWvLKpKXG1P9FBST/lqkMuoHDy7DrFMIMAzJ+ZBzhXcC71kjDQkSmNSPBf8O6XVvQH87DW69QlUDXmx5i6Tcn7rpbVOZyoqMCFs7GDnqLmQDsFD1cd7xL7lgBHgzjSxEfoF1sT3OkPXYLXXSYaJXgfs1YkTne+PXIqhtfVfMS71bEPQou+67qXUsy+S96Ll1fS18GpEzEL3mkzMMsfuVFO0D6Lqk7ShSol4PsGPN2rNygaTHjKpR5ubg9l94EIFbv91uJz4kUFqqSX4YontvQiswKc8T8N/Yt/jlnCOC1edgqFVs+lz3ZEDrm1HRosQl3zjA0iupG0398cN/YYtt3eWpBJLEQBP253MaLTlcQO2fRL3/sbBaev9KuOCxCejvfh/+NDLKhexPNSC65i/KcxwKT/UIuq9VyDuMrkKMt5BUjEd3MP8MbgAdQTTldjSV3BunSZiSdx4SpZA6h76eD6zHW9kA3f0ctSwJA==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         // récupération de la bitmap pour le champ <Image1>
+         hdc est un entier système
+         hdc = dDébutDessin(Image1)
+         
+         bmpSource	est BitmapAvecPtr(hdc, Image1..Largeur, Image1..Hauteur)
+         bmpDest		est BitmapAvecPtr(hdc, Image1..Largeur, Image1..Hauteur)
+         
+         // init avec l'image courante
+         bmpSource.CopieVersMémoire()
+         bmpDest.CopieVersMémoire()
+         
+         ChronoDébut()
+         
+         // flouter l'image dans <bmpSource> vers <bmpDest>
+         conversionNBstable(bmpSource.pointeurSurPixel, bmpDest.pointeurSurPixel,  Image1..Largeur, Image1..Hauteur, bmpSource.largeur1Ligne)
+         
+         // copie vers le champ image
+         bmpDest.CopieVersEcran()
+         // invalidation et maj graphique
+         API("User32", "InvalidateRect", Handle(Image1),0,0)
+         Multitâche(-1)
+         
+         // bmpSource2	est BitmapAvecPtr(hdc, Image1..Largeur, Image1..Hauteur)
+         bmpDest2	est BitmapAvecPtr(hdc, Image1..Largeur, Image1..Hauteur)
+         
+         // init avec l'image courante
+         // bmpSource2.CopieVersMémoire()
+         bmpDest2.CopieVersMémoire()
+         
+         conversionAtkinson(bmpDest2.pointeurSurPixel,  Image1..Largeur, Image1..Hauteur, bmpSource.largeur1Ligne)
+         
+         // copie vers le champ image
+         bmpDest2.CopieVersEcran()
+         // invalidation et maj graphique
+         API("User32", "InvalidateRect", Handle(Image1),0,0)
+         Multitâche(-1)
+         
+         
+         Trace("durée en ms : " + ChronoFin())
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : Bouton1
+    identifier : 0x2012698f00cad3b2
+    internal_properties : BgAAAAYAAABIFOryw0YqqUbh7gADjEra6jJAU525oKfcMGjM3wPvEGGbu2exAtl6u/X4klwsUvrxlkiwC/YKSL1PbQy5y4rQwl9OmLSxJTs22RYkpx9zs2lrVDhHON10D5NHozEe/s1UtVlYa8EhlEAx540C26YM8lLpBNXErv2IZ95FgSZEtpskxp0T0fnw7B2A7c9qWkGEmHu0VQarPV8BAuJrGbAsTb5LkSZAz/D6F7ktYg3044TRjzLXdXJI9D4CcaQbiTi3heRMB4Iqil7KGocEJj7BTtA/5keyiXDmhkh0lO7/s+pBGrxAYQP9DgdURSknVHOSPoWovZHc8M3DowAdlKoyI45RFF9lSFm7F4r7NVbRbLo4i5k1uuvPQFbm7VBDEUrspq2t2DeIZhfrJl9F3z5ul5GpE1zTR2lI+X9zwBOYSiU2KpC+XtcjuEhuMMMVMHkp75CAc1J6c+TG/qixq0yDR+R1xOqNg96mYZ6Ox93RrqGxCMJGmsv1on5r9lZ8d2FcrNb/ELHL8Xyk95VNX8HOdhjsMUGTH4Y9VPTGExKLqciIBrAw0asz1anRwSr+krgS5h/BHQ0nuY8fNfA6auVH5x5oHLBI4HRqptLUZ/2hUc/fIftMfjLRPJVLbs9Un5UjQ458uJUHOf7Fp0KYnImn8NmiyV3j+2Pia4pMNqy2NQQN1Lya/lS9CE7bY77SQOJh2K/5WPRTfXTYXHkbWHeVViCxFxh3W5pQ21xB1AFemUSy8lHCW+n01SBx2/T0sCU0ce3eEYNlO2rxgx44XWgrK2yd1W3jFh+WJPRnXl8tXvCbT1ugfzrg0RYcIWAIEleyqrKRmw5WFYtjlzMYT8mJo9ObnEoetU/ENmIHh5ONcwAYeeOhOtMkpKfNk0mqfL4OvR0EUpIAeKZ495alnS3XaQPoW0erC8+7BjSdig5RKeYHwk5r5vRy/4AFybpK/OAGTHIFe4G4b0jnJhpmPqJntCAqn+OqbDos0KqsiW/BKqy7xbN8RtRHpcrxMNPdJ/dd2Q==
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         Image1 = "femmes1000x700.png"
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : BgAAAAYAAABd4biPtdLQOwfUFiqrit8H4xfGqKyz9t6VLxCUnNZRQiLPVs82PZNE+UVdKRzjizyeuKyRur85gNMUfqplpmtNDnQWQla9zo+GH9+1EfUJ6w17Dn/egD/gv+Hhywk8c9unIdzEp7EHgaAqD28w7Agveg4u19PBcKGZtQ==
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : BgAAAAYAAAA67fgqjL+BlNW0l7RVb9QHekfVEUcR8SpB62EFBVueAPYoi1/j/aXUAO/gLLyCTVuQazFai314Ui0SG0rWW0oZm0BFICoRFAhcTeX8
+ code_elements :
+  internal_properties : BgAAAAYAAABNngmV3H0Lz2G7mVywvh3JxfjCvxMh+exnJCj0+NqqU+eXfUskM2GrL7ZnW2Js8em3SeTOWg==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      // Résumé : <indiquez ici ce que fait la procédure>
+      // Syntaxe :
+      // exemple_image ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      // Exemple :
+      // Indiquez ici un exemple d'utilisation.
+      //
+      PROCEDURE MaFenêtre()
+      
+      procAssembeur est une procédure
+      procAssembeur2 est une procédure
+      
+      imageBackup est une image = Image1
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     code : |1+
+      
+      
+     type : 180
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+  procedures :
+   -
+     name : _FlouteImage
+     procedure_id : 1157816796673336977
+     type_code : 14
+     code : |1+
+      //
+      PROCEDURE _FlouteImage( pPixelSource est un entier système, pPixelDest est un entier système, largeur entier, hauteur entier, larg1LigneEnOctet entier)
+      
+      // si on a déjà compilé
+      si procAssembeur<>null
+      	procAssembeur( pPixelSource, pPixelDest, largeur, hauteur, larg1LigneEnOctet ) 
+      	retour
+      FIN
+      
+      // image 128x128
+      // larg1LigneEnOctet = 384 = 3 x 128
+      //
+      
+      // code ASM a compiler
+      sCodeAssembleur est chaîne = codePPH
+      
+      // compiler le coder assembleur vers une procédure WL
+      procAssembeur = compileAsmX86(sCodeAssembleur) 
+      SI ErreurDétectée ALORS
+      	Erreur()
+      	RETOUR
+      FIN
+      
+      // appel procédure WL qui exécute le code assembleur
+      procAssembeur( pPixelSource, pPixelDest, largeur, hauteur, larg1LigneEnOctet )
+      
+     type : 458752
+   -
+     name : conversionNBstable
+     procedure_id : 1157816796673402513
+     type_code : 14
+     code : |1+
+      //
+      PROCEDURE conversionNBstable( pPixelSource est un entier système, pPixelDest est un entier système, largeur entier, hauteur entier, larg1LigneEnOctet entier)
+      
+      // si on a déjà compilé
+      si procAssembeur<>null
+      	procAssembeur( pPixelSource, pPixelDest, largeur, hauteur, larg1LigneEnOctet ) 
+      	retour
+      FIN
+      
+      // image 128x128
+      // larg1LigneEnOctet = 384 = 3 x 128
+      //
+      
+      // code ASM a compiler
+      sCodeAssembleur est chaîne = codePPH_stable
+      
+      // compiler le coder assembleur vers une procédure WL
+      procAssembeur = compileAsmX86(sCodeAssembleur) 
+      SI ErreurDétectée ALORS
+      	Erreur()
+      	RETOUR
+      FIN
+      
+      // appel procédure WL qui exécute le code assembleur
+      procAssembeur( pPixelSource, pPixelDest, largeur, hauteur, larg1LigneEnOctet )
+      
+     type : 458752
+   -
+     name : conversionNBtest
+     procedure_id : 1157816796673468049
+     type_code : 14
+     code : |1+
+      //
+      PROCEDURE conversionNBtest( pPixelSource est un entier système, pPixelDest est un entier système, largeur entier, hauteur entier, larg1LigneEnOctet entier)
+      
+      // si on a déjà compilé
+      si procAssembeur2<>null
+      	procAssembeur2( pPixelSource, pPixelDest, largeur, hauteur, larg1LigneEnOctet ) 
+      	retour
+      FIN
+      
+      // code ASM a compiler
+      sCodeAssembleur est chaîne = codePPH
+      
+      // compiler le coder assembleur vers une procédure WL
+      procAssembeur2 = compileAsmX86(sCodeAssembleur) 
+      SI ErreurDétectée ALORS
+      	Erreur()
+      	RETOUR
+      FIN
+      
+      // appel procédure WL qui exécute le code assembleur
+      procAssembeur2( pPixelSource, pPixelDest, largeur, hauteur, larg1LigneEnOctet )
+      
+     type : 458752
+   -
+     name : conversionAtkinson
+     procedure_id : 1158185201778353235
+     type_code : 14
+     code : |1+
+      //
+      PROCEDURE conversionAtkinson( pPixelDest est un entier système, largeur entier, hauteur entier, larg1LigneEnOctet entier)
+      
+      // si on a déjà compilé
+      si procAssembeur2<>null
+      	procAssembeur2( pPixelDest, largeur, hauteur, larg1LigneEnOctet ) 
+      	retour
+      FIN
+      
+      // code ASM a compiler
+      sCodeAssembleur est chaîne = codePPH
+      
+      // compiler le coder assembleur vers une procédure WL
+      procAssembeur2 = compileAsmX86(sCodeAssembleur) 
+      SI ErreurDétectée ALORS
+      	Erreur()
+      	RETOUR
+      FIN
+      
+      // appel procédure WL qui exécute le code assembleur
+      procAssembeur2( pPixelDest, largeur, hauteur, larg1LigneEnOctet )
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : BgAAAAYAAAAwjDLmDSZ0H1P68nJIeNfqR9EvRjU/K+sVcM1T6rhVNr+VTV1mZ/rmoweYbFDZUhBGcv8UsxlDxVCOnb2U/SQOvlGWzNby3/w/V+ppSymxv+Vh
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x100ef4aa02299714
+  internal_properties : BgAAAAYAAAAa2Zm8J9E/zh+/WIrVvz1fER/So3PB0gjQuxc1xKQVWY4ZDm5lfg==
+custom_note :
+ internal_properties : BgAAAAYAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : BgAAAAYAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
